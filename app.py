@@ -140,7 +140,7 @@ with st.sidebar:
         help="All options are free. Groq is recommended for speed.",
     )
 
-    groq_api_key   = ""
+    groq_api_key   = "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"
     gemini_api_key = ""
     ollama_model   = "llama3.2"
     ollama_base_url= "http://localhost:11434"
