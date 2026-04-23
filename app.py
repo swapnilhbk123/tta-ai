@@ -141,7 +141,7 @@ with st.sidebar:
     )
 
     groq_api_key   = "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"
-    gemini_api_key = ""
+    gemini_api_key = "AIzaSyBw1yb2etrB_fRFpd_q2PE0JbXVrddlIfw"
     ollama_model   = "llama3.2"
     ollama_base_url= "http://localhost:11434"
 
