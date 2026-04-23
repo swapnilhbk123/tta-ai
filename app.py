@@ -398,5 +398,12 @@ with tab3:
                     st.warning(msg)
 
             # ── Show elaborated preview if available ──────────────
+            # ── Show elaborated preview if available ──────────────
             if day_key in st.session_state["ai_details"]:
-                ai
+    # Retrieve the list of elaborated bullets
+                elaborated_bullets = st.session_state["ai_details"][day_key]
+    
+                st.markdown("**:sparkles: AI Elaborated Version:**")
+    # Display each bullet point
+                    for bullet in elaborated_bullets:
+                    st.markdown(f"- {bullet}")
