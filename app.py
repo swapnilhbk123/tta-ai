@@ -405,5 +405,5 @@ with tab3:
     
                 st.markdown("**:sparkles: AI Elaborated Version:**")
     # Display each bullet point
-                    for bullet in elaborated_bullets:
+                for bullet in elaborated_bullets:
                     st.markdown(f"- {bullet}")
